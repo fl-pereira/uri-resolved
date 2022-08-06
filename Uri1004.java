@@ -1,10 +1,8 @@
-import java.util.Locale;
 import java.util.Scanner;
 
-public class uri1003 {
+public class Uri1004 {
 
     public static void main(String[] args){
-        Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
         int A,B;
@@ -12,11 +10,9 @@ public class uri1003 {
         A = sc.nextInt();
         B = sc.nextInt();
 
-        int soma = A + B;
+        int prod = A * B;
 
-        System.out.println("SOMA = " + soma);
-
-        sc.close();
+        System.out.println("PROD = " + prod);
     }
 
 }

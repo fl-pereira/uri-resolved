@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class uri1006 {
+public class Uri1006 {
 
     public static void main(String[] args){
         Locale.setDefault(Locale.US);
